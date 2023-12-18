@@ -19,8 +19,8 @@ install_plugin Capistrano::SCM::Git
 require "capistrano/rvm"
 require "capistrano/rails"
 require "capistrano/puma"
-install_plugin Capistrano::Puma
-install_plugin Capistrano::Puma::Workers
+#install_plugin Capistrano::Puma
+#install_plugin Capistrano::Puma::Workers
 
 # Include tasks from other gems included in your Gemfile
 #
